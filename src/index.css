@@ -5,9 +5,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFC19E;
+  color: aliceblue;
+  font-size: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.img{
+  max-height: 300px;
+  width: auto;
+  
+  
+}
+
+.li5{
+  display: inline-block;
+  line-height: 40px;
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+.b5{
+  display: inline-block;
+  line-height: 38px;
+
+}
+.button5 {
+  display: inline-block;
+  justify-content: center;
+  text-justify: center;
+  text-align: center;
+  line-height: 3px;
+  margin-left: 20px;
+  height: 20px;
+  width: auto;
+  
+
+  border-radius: 40%;
+}
+/* .ul5{
+ 
+} */
+.loading{
+  top: 50%;
+  display: flex;
+  width: 80vh;
+  height: 80vh;
+  align-self: center;
+  justify-self: center;
+justify-content: center;
+align-content: center;
+}
+.product-title, .price, .basket{
+  color: brown;
+  font-size: larger;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+
+}
+
+.product{
+  background-color: #FFC19E;
+  transition: ease-in 2s;
+}
+.product:hover {
+  
+  background-color: rgb(243, 150, 96);
+}
+
+
+
+.price{
+  margin-right: 12px;
+  font-size: 24px;
+
+}
+.container{
+  background-color: #FFC19E;
+
+  
+
+}
+.product{
+  background-color: #FFC19E;
 }
